@@ -1,11 +1,11 @@
 {
   "name": "chat_iz",
   "version": "1.0.0",
-  "description": "A chat built using MERN and chakre-ui and socket.io",
+  "description": "A chat app npmbuilt using MERN and chakre-ui and socket.io",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "run": ""
+    "start": "nodemon backend/server.js"
   },
   "repository": {
     "type": "git",
@@ -14,7 +14,10 @@
   "author": "Jason Charles",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
     "nodemon": "^2.0.22"
   }
 }
