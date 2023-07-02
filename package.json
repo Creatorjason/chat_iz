@@ -4,12 +4,19 @@
   "description": "base chat app",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "run": "nodemon backend/server.js"
   },
   "repository": {
     "type": "git",
     "url": "github.com/Creatorjason/chat_iz"
   },
   "author": "Jason",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
 }
