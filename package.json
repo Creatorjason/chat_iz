@@ -1,0 +1,15 @@
+{
+  "name": "chat_iz",
+  "version": "1.0.0",
+  "description": "base chat app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/Creatorjason/chat_iz"
+  },
+  "author": "Jason",
+  "license": "ISC"
+}
