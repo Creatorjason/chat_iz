@@ -1,8 +1,7 @@
-const mongoose = require("mongoose")
+const mongoose = require("mongoose");
 
-
-const userModel = mongoose.Schema(
-    name:{
+const userModel = mongoose.Schema({
+    name: {
         type: String,
         required: true,
     },
@@ -14,15 +13,14 @@ const userModel = mongoose.Schema(
         type: String,
         required: true
     },
-    picture : {
+    picture: {
         type: String,
-        required: true, 
-        default: "https://www.flaticon.com/free-icons/hacker" 
-    },
-    {
-        timestamps: true
+        required: true,
+        default: "https://www.flaticon.com/free-icons/hacker"
     }
-)
+}, {
+    timestamps: true
+});
 
-const User = mongoose.model("User", userModel)
-module.exports = User
+const User = mongoose.model("User", userModel);
+module.exports = User;
